@@ -39,8 +39,7 @@ body {
     width: 60%;
     position: absolute;
     top: 70px;
-    left: 80%;
-    right: 20%;
+    left: 40%;
 }
 
 .cloud {
@@ -54,7 +53,6 @@ body {
 .button {
     width: 20%;
     align-content: center;
-    display: inline-block;
     left: 50%;
 }
 
