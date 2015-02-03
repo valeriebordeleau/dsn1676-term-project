@@ -23,6 +23,7 @@ body {
 
 .background {
     background-color: #99C2FF;
+    background-image: url(../artwork/clouds.svg);
 }
 
 .sun {
