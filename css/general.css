@@ -36,8 +36,8 @@ body {
     max-width: 200px;
     position: absolute;
     top: 30px;
-    left: 50%;
-    right: 50%;
+    align-content: center;
+    display: block;
 }
 
 .cloud2 {
