@@ -39,14 +39,14 @@ body {
     width: 50%;
     position: absolute;
     top: 70px;
-    left: 20%;
+    left: 60%;
 }
 
 .cloud {
     width: 40%;
     position: absolute;
     top: 70px;
-    right: 90%;
+    right: 60%;
 }
 
 .button {
