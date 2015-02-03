@@ -29,6 +29,7 @@ body {
 
 .sun {
     width: 30%;
+    max-width: 500px;
     position: absolute;
     top: 50px;
     left: 50%;
