@@ -13,10 +13,35 @@ html {
   text-size-adjust: 100%;
 }
 
+body {
+    margin: 0;
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-review {
-    font-family: 'Abril Fatface', cursive;
+.background {
+    background-color: #99C2FF;
+}
+
+.sun {
+    width: 30%;
+    position: absolute;
+}
+
+.cloud2 {
+    width: 50%;
+    position: absolute;
+}
+
+.cloud {
+    width: 50%;
+    position: absolute;
+}
+
+.button {
+    width: 10%;
+    align-content: center;
+    display: inline-block;
 }
