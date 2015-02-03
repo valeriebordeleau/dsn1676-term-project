@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: 60%;
 }
 
 *, *:before, *:after {
@@ -53,7 +53,7 @@ body {
 }
 
 .button {
-    width: 20%;
+    width: 40%;
     max-width: 100px;
     align-content: center;
     left: 50%;
