@@ -15,7 +15,6 @@ html {
 
 body {
     margin: 0;
-    padding-top: 800px;
 }
 
 *, *:before, *:after {
@@ -23,6 +22,7 @@ body {
 }
 
 .background {
+    padding-top; 500px;
     background-color: #99C2FF;
     background-image: url(../artwork/clouds.svg);
     background-repeat: space;
