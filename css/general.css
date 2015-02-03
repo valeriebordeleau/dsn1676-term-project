@@ -37,7 +37,7 @@ body {
     position: absolute;
     top: 30px;
     align-content: center;
-    display: block;
+    display: inline;
 }
 
 .cloud2 {
