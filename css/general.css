@@ -29,7 +29,7 @@ body {
 
 .sun {
     width: 30%;
-    max-width: 100px;
+    max-width: 250px;
     position: absolute;
     top: 50px;
     left: 50%;
@@ -38,6 +38,7 @@ body {
 
 .cloud2 {
     width: 50%;
+    max-width: 400px;
     position: absolute;
     top: 70px;
     left: 60%;
@@ -45,6 +46,7 @@ body {
 
 .cloud {
     width: 40%;
+    max-width: 400px;
     position: absolute;
     top: 70px;
     right: 60%;
@@ -52,6 +54,7 @@ body {
 
 .button {
     width: 20%;
+    max-width: 100px;
     align-content: center;
     left: 50%;
 }
