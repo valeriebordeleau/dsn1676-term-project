@@ -78,20 +78,26 @@ body {
         top: 12%;
 }
     .sun {
-    position: absolute;
-    top: 10%;
-    left: 50%;
+        position: absolute;
+        top: 10%;
+        left: 50%;
 }
     
-.cloud2 {
-    left: 30%;
-}
+    .cloud2 {
+        left: 32%;
+    }
 
-.cloud {
-    right: 5%;
-}    
+    .cloud {
+        right: 5%;
+    }    
 @media only screen and (min-width: 60em) {
+    .cloud2 {
+        left: 32%;
+    }
 
+    .cloud {
+        right: 10%;
+    }    
 }
 
 /*
