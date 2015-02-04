@@ -33,6 +33,7 @@ body {
     background-image: url(../artwork/clouds.svg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 100%;
     -webkit-animation: clouds-scale 15s ease-in-out infinite alternate;
     animation: clouds-scale 15s ease-in-out infinite alternate;
 }
@@ -54,6 +55,11 @@ body {
     left: 20%;
     -webkit-animation: clouds-float 10s ease-in-out infinite;
     animation: clouds-float 10s ease-in-out infinite;
+}
+
+.cloud2: hover {
+    -webkit-animation: clouds2-float 10s ease-in-out infinite;
+    animation: clouds2-float 10s ease-in-out infinite;
 }
 
 .cloud {
@@ -114,6 +120,14 @@ body {
   25% { transform: translate(-25px, -12px); }
   50% { transform: translate(25px, 12px); }
   75% { transform: translate(-25px, -12px); }
+  100% { transform: translate(0, 0); }
+}
+
+@keyframes clouds2-float {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(25px, 12px); }
+  50% { transform: translate(-25px, -12px); }
+  75% { transform: translate(25px, 12px); }
   100% { transform: translate(0, 0); }
 }
 
