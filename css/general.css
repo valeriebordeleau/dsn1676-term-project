@@ -71,7 +71,8 @@ body {
     max-width: 80px;
     position: absolute;
     top: 120px;
-    left: 38%; 
+    align-content: center;
+    display: inline-block;
 }
 
 .button:hover {
