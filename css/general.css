@@ -30,7 +30,7 @@ body {
 }
 
 .pulse {
-    height: 100%;
+    height: 50%;
     width: 100%;
     position: absolute;
     background-image: url(../artwork/clouds.svg);
