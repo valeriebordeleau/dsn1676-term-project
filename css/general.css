@@ -35,7 +35,6 @@ body {
     background-position: center;
     -webkit-animation: clouds-scale 15s ease-in-out infinite alternate;
     animation: clouds-scale 15s ease-in-out infinite alternate;
-    
 }
 
 .sun {
