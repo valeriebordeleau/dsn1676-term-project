@@ -36,8 +36,8 @@ body {
     background-image: url(../artwork/clouds.svg);
     background-repeat: no-repeat;
     background-position: center;
-    -webkit-animation: clouds-scale 15s ease-in-out infinite alternate;
-    animation: clouds-scale 15s ease-in-out infinite alternate;
+    -webkit-animation: clouds-scale 5s ease-in-out infinite alternate;
+    animation: clouds-scale 5s ease-in-out infinite alternate;
 }
 
 .sun {
