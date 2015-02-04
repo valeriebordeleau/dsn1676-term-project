@@ -41,7 +41,7 @@ body {
     width: 30%;
     max-width: 150px;
     position: absolute;
-    top: 7%;
+    top: 5%;
     left: 38%;
     animation: sun-rotate 35s ease-in-out infinite alternate;
 }
