@@ -60,7 +60,7 @@ body {
     width: 40%;
     max-width: 100px;
     position: absolute;
-    top: 55%;
+    top: 60%;
 }
 
 .text {
@@ -74,7 +74,7 @@ body {
 @media only screen and (min-width: 38em) {
     .text {
         align-content: left;
-        top: 10%;
+        top: 12%;
 }
     .sun {
     position: absolute;
