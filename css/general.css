@@ -48,6 +48,7 @@ body {
     position: absolute;
     top: 5%;
     left: 38%;
+    -webkit-animation:sun-rotate 35s ease-in-out infinite alternate;
     animation: sun-rotate 35s ease-in-out infinite alternate;
 }
 
@@ -107,6 +108,16 @@ body {
     
 }
 
+@-webkit-keyframes sun-rotate {
+    
+    0% { -webkit-transform: rotate(0deg);
+    }
+    
+    100% { -webkit-transform: rotate(360deg);
+    }
+    
+}
+
 @keyframes clouds-scale {
    0% { transform: scale(1, 1); }
    100% { transform: scale(1.1, 1.1); } 
@@ -115,7 +126,6 @@ body {
 @-webkit-keyframes clouds-scale {
   0% { -webkit-transform: scale(1, 1); }
   100% { -webkit-transform: scale(8, 1.1); }
-}
 }
 
 @keyframes clouds-float {
@@ -134,6 +144,21 @@ body {
   100% { transform: translate(0, 0); }
 }
 
+@-webkit-@keyframes clouds-float {
+  0% { -webkit-transform: translate(0, 0); }
+  25% { -webkit-transform: translate(-25px, -12px); }
+  50% { -webkit-transform: translate(25px, 12px); }
+  75% { -webkit-transform: translate(-25px, -12px); }
+  100% { -webkit-transform: translate(0, 0); }
+}
+
+@-webkit-@keyframes clouds2-float {
+  0% { -webkit-transform: translate(0, 0); }
+  25% { -webkit-transform: translate(25px, -12px); }
+  50% { -webkit-transform: translate(-25px, -12px); }
+  75% { -webkit-transform: translate(12px, 25px); }
+  100% { -webkit-transform: translate(0, 0); }
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -174,8 +199,8 @@ body {
     
 /*
 THE PLAN:
-Sun rotate slowly when hovered over
-Background clouds pulse automatically, no repeat
+Sun rotate slowly when automatically
+Background clouds pulse automatically
 Button enlarges when hovered over
-Foreground clouds either pulse or bob automatically
+Foreground clouds either pulse or bob when hovered
 */
