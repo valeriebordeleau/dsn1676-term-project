@@ -67,15 +67,15 @@ body {
 }
 
 .button {
-    width: 40%;
-    max-width: 100px;
+    width: 30%;
+    max-width: 80px;
     position: absolute;
     top: 120px;
     left: 38%; 
 }
 
 .button:hover {
-    width: 42%;
+    width: 40%;
     max-width: 100px;  
 }
 
