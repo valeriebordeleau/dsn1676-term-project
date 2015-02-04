@@ -59,7 +59,8 @@ body {
     width: 40%;
     max-width: 100px;
     position: absolute;
-    top:30%;
+    top: 28%;
+    left: 60%;
 }
 
 @media only screen and (min-width: 25em) {
