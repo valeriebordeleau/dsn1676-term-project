@@ -75,8 +75,8 @@ body {
 }
 
 .button:hover {
-    width: 55%;
-    max-width: 150px;  
+    width: 50%;
+    max-width: 120px;  
 }
 
 .text {
