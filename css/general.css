@@ -64,6 +64,11 @@ body {
     left: 38%; 
 }
 
+.button:hover {
+    background-color: #993399;
+    color: #FFFF66;
+}
+
 .text {
     position: absolute;
     top: 25%;
@@ -76,7 +81,6 @@ body {
     .text {
         text-align: left;
         top: 12%;
-        background-color:#99C2FF;
 }
     .sun {
         position: absolute;
