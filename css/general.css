@@ -27,6 +27,9 @@ body {
     height: 50vh;
     padding-top; 500px;
     background-color: #99C2FF;
+}
+
+.pulse {
     background-image: url(../artwork/clouds.svg);
     background-repeat: no-repeat;
     background-position: center;
