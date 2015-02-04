@@ -69,7 +69,8 @@ body {
 }
 
 .button:hover {
-    
+    width: 60%;
+    max-width: 150px;  
 }
 
 .text {
@@ -150,7 +151,7 @@ body {
 /*
 THE PLAN:
 Sun rotate slowly when hovered over
-Background pulse automatically, no repeat
+Background clouds pulse automatically, no repeat
 Button enlarges when hovered over
-clouds either pulse or bob automatically
+Foreground clouds either pulse or bob automatically
 */
