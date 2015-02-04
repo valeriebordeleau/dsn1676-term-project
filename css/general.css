@@ -71,8 +71,6 @@ body {
     max-width: 80px;
     position: absolute;
     top: 120px;
-    align-content: center;
-    display: inline-block;
 }
 
 .button:hover {
@@ -145,8 +143,7 @@ body {
     }    
     
     .button {
-        top: 180px;
-        left: 42%; 
+        top: 180px; 
     }
 @media only screen and (min-width: 60em) {
     .cloud2 {
@@ -159,7 +156,6 @@ body {
     
     .button {
         top: 190px;
-        left: 60%; 
     }
     
 
