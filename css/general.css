@@ -28,7 +28,7 @@ body {
     padding-top; 500px;
     background-color: #99C2FF;
     background-image: url(../artwork/clouds.svg);
-    background-repeat: space;
+    background-repeat: no-repeat;
     
 }
 
@@ -38,7 +38,7 @@ body {
     position: absolute;
     top: 7%;
     left: 38%;
-    animation: sun-rotate 25s ease-in-out infinite alternate;
+    animation: sun-rotate 35s ease-in-out infinite alternate;
 }
 
 .cloud2 {
