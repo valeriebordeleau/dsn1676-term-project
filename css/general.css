@@ -90,6 +90,11 @@ body {
     .cloud {
         right: 5%;
     }    
+    
+    .button {
+        top: 80%;
+        left: 42%; 
+    }
 @media only screen and (min-width: 60em) {
     .cloud2 {
         left: 32%;
