@@ -82,6 +82,22 @@ body {
     left: 50%;
 }
 
+    
+.cloud2 {
+    width: 50%;
+    max-width: 400px;
+    position: absolute;
+    top: 7%;
+    left: 30%;
+}
+
+.cloud {
+    width: 40%;
+    max-width: 400px;
+    position: absolute;
+    top: 5%;
+    right: 25%;
+}    
 @media only screen and (min-width: 60em) {
 
 }
