@@ -30,6 +30,8 @@ body {
     background-image: url(../artwork/clouds.svg);
     background-repeat: no-repeat;
     background-position: center;
+    -webkit-animation: clouds-scale 15s ease-in-out infinite alternate;
+    animation: clouds-scale 15s ease-in-out infinite alternate;
     
 }
 
@@ -134,7 +136,7 @@ body {
 /*
 THE PLAN:
 Sun rotate slowly when hovered over
-Background pulse automatically
+Background pulse automatically, no repeat
 Button enlarges when hovered over
 clouds either pulse or bob automatically
 */
