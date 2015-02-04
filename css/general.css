@@ -86,7 +86,7 @@ body {
 }
 
 .button:hover {
-    max-width: 100px;
+    width: 95px;
 }
 
 .text {
@@ -163,11 +163,7 @@ body {
     }
 
 @media only screen and (min-width: 38em) {
-    .button:hover {
-    width: 45%;
-    max-width: 120px;  
-}
-    
+
     .sun {
         position: absolute;
         top: 10%;
