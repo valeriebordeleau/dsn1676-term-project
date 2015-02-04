@@ -34,7 +34,7 @@ body {
     width: 80%;
     position: absolute;
     background-image: url(../artwork/clouds.svg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     -webkit-animation: clouds-scale 5s ease-in-out infinite alternate;
     animation: clouds-scale 5s ease-in-out infinite alternate;
