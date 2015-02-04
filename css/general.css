@@ -52,8 +52,8 @@ body {
     position: absolute;
     top: 7%;
     left: 20%;
-    -webkit-animation: cloud-float 10s ease-in-out infinite;
-    animation: ship-move 10s ease-in-out infinite;
+    -webkit-animation: clouds-float 10s ease-in-out infinite;
+    animation: clouds-float 10s ease-in-out infinite;
 }
 
 .cloud {
