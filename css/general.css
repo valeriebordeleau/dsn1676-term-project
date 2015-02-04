@@ -41,7 +41,7 @@ body {
 }
 
 .cloud2 {
-    width: 50%;
+    width: 45%;
     max-width: 400px;
     position: absolute;
     top: 7%;
@@ -92,7 +92,7 @@ body {
     }    
     
     .button {
-        top: 80%;
+        top: 90%;
         left: 42%; 
     }
 @media only screen and (min-width: 60em) {
@@ -102,7 +102,13 @@ body {
 
     .cloud {
         right: 10%;
-    }    
+    } 
+    
+    .button {
+        top: 98%;
+        left: 60%; 
+    }
+    
 }
 
 /*
