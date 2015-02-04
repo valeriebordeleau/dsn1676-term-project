@@ -27,11 +27,13 @@ body {
     height: 50vh;
     padding-top; 500px;
     background-color: #99C2FF;
+    overflow: hidden;
+    position: relative;
 }
 
 .pulse {
     height: 50vh;
-    width: 80%;
+    width: 100%;
     position: absolute;
     background-image: url(../artwork/clouds.svg);
     background-repeat: repeat;
@@ -76,11 +78,10 @@ body {
 }
 
 .button {
-    width: 35%;
-    max-width: 90px;
+    width: 90px;
     position: absolute;
-    top: 120px;
-    right: 50%;
+    bottom: 10px;
+    left: calc(50% - 45px);
 }
 
 .button:hover {
@@ -91,7 +92,7 @@ body {
 
 .text {
     position: absolute;
-    top: 24%;
+    bottom: 24%;
 }
 
 @keyframes sun-rotate {
@@ -144,10 +145,6 @@ body {
     max-width: 120px;  
 }
     
-    .text {
-        text-align: left;
-        top: 12%;
-}
     .sun {
         position: absolute;
         top: 10%;
@@ -162,9 +159,7 @@ body {
         right: 5%;
     }    
     
-    .button {
-        top: 180px; 
-    }
+
 @media only screen and (min-width: 60em) {
     .cloud2 {
         left: 35%;
@@ -173,11 +168,6 @@ body {
     .cloud {
         right: 20%;
     } 
-    
-    .button {
-        top: 190px;
-    }
-    
 
 }
 
