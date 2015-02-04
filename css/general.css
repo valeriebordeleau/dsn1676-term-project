@@ -37,7 +37,7 @@ body {
     max-width: 200px;
     position: absolute;
     top: 30px;
-    left: 38%;
+    left: 40%;
 }
 
 .cloud2 {
@@ -61,12 +61,12 @@ body {
     max-width: 100px;
     position: absolute;
     top: 40%;
-    left: 50%;
+    left: 40%;
 }
 
 .text {
     position: absolute;
-    top: 25%;
+    top: 22%;
 }
 
 @media only screen and (min-width: 25em) {
