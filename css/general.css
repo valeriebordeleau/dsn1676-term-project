@@ -58,6 +58,8 @@ body {
 .button {
     width: 40%;
     max-width: 100px;
+    position: absolute;
+    top:30%;
 }
 
 @media only screen and (min-width: 25em) {
@@ -68,3 +70,11 @@ body {
 
 @media only screen and (min-width: 60em) {
 }
+
+/*
+THE PLAN:
+Sun rotate slowly when hovered over
+Background pulse automatically
+Button enlarges when hovered over
+clouds either pulse or bob automatically
+*/
