@@ -55,7 +55,7 @@ body {
     left: 20%;
 }
 
-.cloud2: hover {
+.cloud2:hover {
     -webkit-animation: clouds2-float 10s ease-in-out infinite;
     animation: clouds2-float 10s ease-in-out infinite;
 }
@@ -68,7 +68,7 @@ body {
     right: 5%;
 }
 
-.cloud: hover {
+.cloud:hover {
     -webkit-animation: clouds-float 10s ease-in-out infinite;
     animation: clouds-float 10s ease-in-out infinite;
 }
