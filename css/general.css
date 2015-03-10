@@ -78,6 +78,23 @@ body {
     animation: clouds2-float 3s ease-in-out infinite;
 }
 
+.nav-items {
+    position: absolute;
+    left: calc(80% - 73px);
+    list-style: none;
+    background-color: white;
+    width: 150px;
+    top: 60px;
+    padding: 0;
+}
+
+.toggle{
+    width: 46px;
+    position: absolute;
+    top: 15px;
+    left: calc(92% - 23px);
+}
+
 .button {
     width: 90px;
     position: absolute;
