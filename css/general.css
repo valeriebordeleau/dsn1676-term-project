@@ -125,6 +125,22 @@ body {
     display: block;
 }
 
+.beach {
+    width: 80%;
+    border: 10px solid #7A9BCC;
+    border-radius: 1em;
+    display: block;
+    margin: 0 auto;
+}
+
+.things-to-do {
+   font-family: 'Raleway', sans-serif;
+   font-size: 1rem;
+   background-color: #99C2FF;
+   border: solid 5px #99C2FF;
+   border-radius: 2rem;
+}
+
 @keyframes sun-rotate {
     
     0% {
