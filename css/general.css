@@ -79,13 +79,23 @@ body {
 }
 
 .nav-items {
-    position: absolute;
-    left: calc(80% - 73px);
     list-style: none;
     background-color: white;
-    width: 150px;
     top: 60px;
     padding: 0;
+    display: none;
+}
+
+.nav-li:hover {
+    background-color: #7A9BCC;
+    top: 60px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-li {
+    display: block;
+    padding: .5em;
 }
 
 .toggle{
@@ -109,6 +119,10 @@ body {
 .text {
     position: absolute;
     bottom: 24%;
+}
+
+.js-toggle-appear {
+    display: block;
 }
 
 @keyframes sun-rotate {
