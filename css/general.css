@@ -122,8 +122,8 @@ body {
 
 .js-toggle-appear {
     display: block;
-    animation: slow-open 500ms ease-out;
     -webkit-animation: slow-open 500ms ease-out;
+    animation: slow-open 500ms ease-out;
 }
 
 .beach {
@@ -155,8 +155,8 @@ body {
 
 .js-to-do-appear {
     display: block;
-    animation: slow-open 300ms ease-out;
     -webkit-animation: slow-open 300ms ease-out;
+    animation: slow-open 300ms ease-out;
 }
 
 .things-to-see {
@@ -180,8 +180,8 @@ body {
 
 .js-to-see-appear {
     display: block;
-    animation: slow-open 300ms ease-out;
     -webkit-animation: slow-open 300ms ease-out;
+    animation: slow-open 300ms ease-out;
 }
 
 .things-to-go {
@@ -206,11 +206,12 @@ body {
 
 .js-to-go-appear {
     display: block;
-    animation: slow-open 300ms ease-out;
     -webkit-animation: slow-open 300ms ease-out;
+    animation: slow-open 300ms ease-out;
+   
 }
 
-@keyframes slow-open {
+@keyframes-@keyframes slow-open {
     
     0% {
         max-height: 0em;
