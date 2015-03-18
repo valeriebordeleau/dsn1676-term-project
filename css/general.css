@@ -211,17 +211,6 @@ body {
    
 }
 
-@-webkit-keyframes slow-open {
-    
-    0% {
-        max-height: 0em;
-    }
-    
-    100% {
-        max-height: 10em;
-    }
-    
-}
 
 @keyframes slow-open {
     
@@ -235,6 +224,17 @@ body {
     
 }
 
+@-webkit-keyframes slow-open {
+    
+    0% {
+        max-height: 0em;
+    }
+    
+    100% {
+        max-height: 10em;
+    }
+    
+}
 
 @keyframes sun-rotate {
     
