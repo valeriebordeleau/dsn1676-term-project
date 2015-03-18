@@ -223,7 +223,7 @@ body {
     
 }
 
-@-webkit-@keyframes slow-open {
+@-webkit-keyframes slow-open {
     
     0% {
         max-height: 0em;
