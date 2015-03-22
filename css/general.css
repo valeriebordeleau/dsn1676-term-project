@@ -127,9 +127,7 @@ body {
 }
 
 .beach {
-    width: 80%;
-    border: 8px solid #7A9BCC;
-    border-radius: 1em;
+    width: 60%;
     display: block;
     margin: 0 auto;
 }
