@@ -22,6 +22,10 @@ body {
   box-sizing: inherit;
 }
 
+.title {
+    font-size: 2rem;
+}
+
 .background {
     width: 100%;
     height: 50vh;
@@ -127,13 +131,16 @@ body {
 }
 
 .beach {
-    width: 60%;
+    width: 50%;
     display: block;
     margin: 0 auto;
+    border: 2px solid #EF9218;
+    border-radius: 100%;
 }
 
 .clickables {
     background-color: #DEECF9;
+    color: #5983B5;
 }
 
 .things-to-do {
