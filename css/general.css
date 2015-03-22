@@ -124,6 +124,10 @@ body {
     bottom: 24%;
 }
 
+.text-box {
+    background-color: white;
+}
+
 .js-toggle-appear {
     display: block;
     -webkit-animation: slow-open 500ms ease-out;
