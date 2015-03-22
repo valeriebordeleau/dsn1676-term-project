@@ -132,18 +132,24 @@ body {
     margin: 0 auto;
 }
 
+.clickables {
+    background-color: #F3F9FF;
+}
+
 .things-to-do {
    font-family: 'Raleway', sans-serif;
    font-size: 1rem;
-   background-color: #99C2FF;
-   border: solid 5px #99C2FF;
-   border-radius: 2rem;
+   color: white;
+   font-weight: bold;
+   background-color: #FBB040;
+   border: solid 5px #FBB040;
+   border-radius: 10px;
 }
 
 .things-to-do:hover {
   background-color: #7A9BCC;
   border: solid 5px #7A9BCC;
-  border-radius: 2rem;
+  border-radius: 10px;
   color: white;
 }
 
