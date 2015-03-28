@@ -25,3 +25,5 @@ var $toGo = $('.to-go');
 $thingsToGo.on('click', function () {
     $toGo.toggleClass('js-to-go-appear');
 });
+
+$('.nav-li').localScroll();

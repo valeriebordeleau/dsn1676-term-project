@@ -13,9 +13,9 @@
  
     <nav>
         <ul class="nav-items text-center push-0">
-            <li class="nav-li">Suggestions</li>
-            <li class="nav-li">Featured Adventure</li>
-            <li class="nav-li">Inspiration</li>
+            <li><a href="#suggestions" class="nav-li">Suggestions</a></li>
+            <li><a href="#featured-adventure" class="nav-li">Featured Adventure</a></li>
+            <li><a href="#inspiration" class="nav-li">Inspiration</a></li>
         </ul>
         </nav>
     
@@ -24,7 +24,7 @@
     <img src="artwork/cloud.svg" alt="Puffy cloud" class="cloud2">
     <img src="artwork/cloud2.svg" alt="Grey puffy cloud" class="cloud">
     <img src="artwork/sun.svg" alt="Spikey sun" class="sun">
-    <img src="artwork/toggle.svg" class="toggle">
+    <img src="artwork/toggle.svg" class="toggle" id="top">
 <div class="text grid">
     <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
     <h1 class="text-center gutter yotta push-0 title">Sunny Days</h1>
@@ -32,17 +32,18 @@
     </div>
 
 </div>
-    <img src="artwork/button.svg" alt="down button" class="button island">
+    <a href="#bottom"><img src="artwork/button.svg" alt="down button" class="button island"></a>
 </div>
+    
 <div class="clickables">
-    <h2 class="text-center pad-top-double push-0">Need a Suggestion for Your Sunny Day?</h2>    
+    <h2 class="text-center pad-top-double push-0" id="suggestions">Need a Suggestion for Your Sunny Day?</h2>    
 
 <div class="grid pad-top">
 
     <div class="island text-center unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
         <img src="artwork/canoe.svg" class="beach"></img>
             <div class="pad-top-half pad-bottom">
-                <button class="things-to-do">Things to Do!</button>
+                <button class="things-to-do" >Things to Do!</button>
             </div>
                 <div class="to-do">
                     <h2 class="push-0">Try One of These</h2>
@@ -90,7 +91,7 @@
     </div>
 </div>
 
-        <h2 class="gutter pad-top text-center">Featured Adventure</h2>
+        <h2 class="gutter pad-top text-center" id="featured-adventure">Featured Adventure</h2>
 
 <div class="grid">
     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
@@ -109,9 +110,9 @@
 
 
 <div class="clickables">
-    <h2 class="pad-top gutter">Take Inspiration From One of These</h2>
+    <h2 class="pad-top gutter" id="inspiration">Take Inspiration From One of These</h2>
 
-    <div class="grid">
+    <div class="grid" id="bottom">
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
             <h3 class="mega gutter push-0">Lorem Ipsem</h3>
                 <p class="gutter">Day, Month, Year</p>
@@ -135,8 +136,13 @@
     </div>
 </div>
 
+<p><a href="#top" class="gutter">Back To Top</a></p>
+
  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script> 
-<script src="js/main.js"></script>     
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"> </script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js"> </script>
+<script src="js/main.js"></script> 
+
  </body>
        
     </html>
