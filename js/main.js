@@ -1,4 +1,5 @@
 $('.nav-items').localScroll();
+$('.button2').localScroll();
 
 var $toggle = $('.toggle');
 var $navItems = $('.nav-items');
