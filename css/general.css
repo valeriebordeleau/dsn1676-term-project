@@ -271,10 +271,12 @@ body {
 }
 
 .boat:hover #oar {
+    -webkit-animation: oar-move 500ms infinite;
     animation: oar-move 500ms infinite;
 }
 
 .boat:hover #water {
+    -webkit-animation: water-move 500ms infinite;
      animation: water-move 500ms infinite;
 }
 
