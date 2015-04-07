@@ -251,8 +251,16 @@ body {
     fill:#7A9BCC;
 } 
 
-.st1{
-    fill:#B2D6F9;
+.st1{fill:#CEDFF4;
+} 
+
+.st2{fill:#6187B5;
+} 
+
+.st3{fill:#FFFFFF;
+} 
+
+.st4{fill:#B2D6F9;
 }
 
 .boat {
@@ -268,6 +276,10 @@ body {
 }
 
 .boat:hover #water {
+     animation: water-move 500ms infinite;
+}
+
+.boat:hover .st3 {
      animation: water-move 500ms infinite;
 }
 
