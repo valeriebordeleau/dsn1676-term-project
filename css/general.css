@@ -249,20 +249,46 @@ body {
 }
 
 .st0{
-    fill:none;
-}
-
-.st1{
     fill:#7A9BCC;
 } 
 
-.st2{
+.st1{
     fill:#B2D6F9;
 }
 
 .boat {
-    width: 100px;
+    max-width: 50%;
 }
+
+#oar {
+    transform: rotate(0deg);
+}
+
+.boat:hover #oar {
+    transform: rotate(3deg);
+    transform-origin:;
+    transition: all 200ms linear;
+}
+
+.boat:hover #water {
+     animation: water-move 1s linear;
+}
+
+
+@keyframes water-move {
+    0% {
+        transform: translateY(0px);
+    }
+   
+      50% {
+        transform: translateY(1px);
+    }
+    
+    100% {
+        transform: translateY(0px);
+    }   
+}
+
 
 @-webkit-keyframes slow-open {
     
