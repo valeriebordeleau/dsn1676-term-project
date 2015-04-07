@@ -245,7 +245,6 @@ body {
     display: block;
     -webkit-animation: slow-open 300ms ease-out;
     animation: slow-open 300ms ease-out;
-   
 }
 
 .st0{
@@ -265,27 +264,37 @@ body {
 }
 
 .boat:hover #oar {
-    transform: rotate(3deg);
-    transform-origin:;
-    transition: all 200ms linear;
+    animation: oar-move 500ms infinite;
 }
 
 .boat:hover #water {
-     animation: water-move 1s linear;
+     animation: water-move 500ms infinite;
 }
 
+@keyframes oar-move {
+    0% {
+        transform: translateX(0em);
+    }
+    
+      50% {
+        transform: translateX(-1em);
+    }
+   
+    100% {
+        transform: translateX(0em);
+    }   
+}
 
 @keyframes water-move {
     0% {
-        transform: translateY(0px);
-    }
-   
-      50% {
-        transform: translateY(1px);
+        transform: translateX(0em);
     }
     
+      50% {
+        transform: translateX(.60em);
+    
     100% {
-        transform: translateY(0px);
+        transform: translateX(0em);
     }   
 }
 
