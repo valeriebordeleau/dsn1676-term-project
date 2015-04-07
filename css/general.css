@@ -282,6 +282,21 @@ body {
      animation: water-move 500ms infinite;
 }
 
+@-webkit-keyframes oar-move {
+    0% {
+        transform: translateX(0em);
+    }
+    
+      50% {
+        transform: translateX(-1em);
+    }
+   
+    100% {
+        transform: translateX(0em);
+    }   
+}
+
+
 @keyframes oar-move {
     0% {
         transform: translateX(0em);
@@ -295,6 +310,20 @@ body {
         transform: translateX(0em);
     }   
 }
+
+@-webkit-keyframes water-move {
+    0% {
+        transform: translateX(0em);
+    }
+    
+      50% {
+        transform: translateX(.60em);
+    
+    100% {
+        transform: translateX(0em);
+    }   
+}
+
 
 @keyframes water-move {
     0% {
