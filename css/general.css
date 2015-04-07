@@ -131,6 +131,10 @@ body {
     width: 95px;
 }
 
+.backto {
+    text-decoration: none;
+}
+
 .text {
     position: absolute;
     bottom: 24%;
@@ -148,6 +152,7 @@ body {
     margin: 0 auto;
     border: 2px solid white;
     border-radius: 100%;
+    background-color: white;
 }
 
 .featured-adventure {
@@ -243,6 +248,21 @@ body {
    
 }
 
+.st0{
+    fill:none;
+}
+
+.st1{
+    fill:#7A9BCC;
+} 
+
+.st2{
+    fill:#B2D6F9;
+}
+
+.boat {
+    max-width: 50%;
+}
 
 @-webkit-keyframes slow-open {
     
