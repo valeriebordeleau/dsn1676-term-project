@@ -320,21 +320,17 @@ body {
     }
     
     50% {
-        transform: translateX(.60em);
+        transform: translateX(.60em);}
     
-    100% {
-        transform: translateX(0em);
-    }   
+    100% {transform: translateX(0em);}   
 }
 
 
 @keyframes water-move {
     0% {
-        transform: translateX(0em);
-    }
+        transform: translateX(0em);}
     
-    50% {
-        transform: translateX(.60em);}
+    50% {transform: translateX(.60em);}
     
     100% {transform: translateX(0em);}   
 }
