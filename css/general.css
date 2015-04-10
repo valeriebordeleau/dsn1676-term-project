@@ -267,6 +267,7 @@ body {
 }
 
 #oar {
+    -webkit-transform:rotate(0deg);
     transform: rotate(0deg);
 }
 
