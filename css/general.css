@@ -263,24 +263,24 @@ body {
 }
 
 .boat {
-    max-width: 50%;
+    max-width: 80%;
 }
 
 #oar {
     transform: rotate(0deg);
 }
 
-.boat:hover #oar {
+.js-active #oar {
     -webkit-animation: oar-move 500ms infinite;
     animation: oar-move 500ms infinite;
 }
 
-.boat:hover #water {
+.js-active #water {
     -webkit-animation: water-move 500ms infinite;
      animation: water-move 500ms infinite;
 }
 
-.boat:hover .st3 {
+.js-active .st3 {
     -webkit-animation: water-move 500ms infinite;
     animation: water-move 500ms infinite;
 }

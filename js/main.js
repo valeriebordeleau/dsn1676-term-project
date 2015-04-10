@@ -28,3 +28,9 @@ var $toGo = $('.to-go');
 $thingsToGo.on('click', function () {
     $toGo.toggleClass('js-to-go-appear');
 });
+
+var $boatSection = $('.boat');
+
+$boatSection.waypoint(function() {
+  $boatSection.toggleClass('js-active')  
+}, {offset:'50%'});
