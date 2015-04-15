@@ -86,7 +86,9 @@ body {
     background-color: white;
     top: 60px;
     padding: 0;
-    display: none;
+    overflow: hidden;
+    max-height:0;
+    transition: all 500ms ease-out; 
 }
 
 .nav-li:hover {
@@ -140,9 +142,7 @@ body {
 }
 
 .js-toggle-appear {
-    display: block;
-    -webkit-animation: slow-open 500ms ease-out;
-    animation: slow-open 500ms ease-out;
+    max-height: 10em;
 }
 
 .beach {
@@ -183,13 +183,13 @@ body {
 }
 
 .to-do {
-    display: none;
+    overflow: hidden;
+    max-height:0;
+    transition: all 500ms ease-out; 
 }
 
 .js-to-do-appear {
-    display: block;
-    -webkit-animation: slow-open 300ms ease-out;
-    animation: slow-open 300ms ease-out;
+    max-height: 10em;
 }
 
 .things-to-see {
@@ -210,13 +210,13 @@ body {
 }
 
 .to-see {
-    display: none;
+    overflow: hidden;
+    max-height:0;
+    transition: all 500ms ease-out; 
 }
 
 .js-to-see-appear {
-    display: block;
-    -webkit-animation: slow-open 300ms ease-out;
-    animation: slow-open 300ms ease-out;
+    max-height: 10em;
 }
 
 .things-to-go {
@@ -237,13 +237,13 @@ body {
 }
 
 .to-go {
-    display: none;
+    overflow: hidden;
+    max-height:0;
+    transition: all 500ms ease-out; 
 }
 
 .js-to-go-appear {
-    display: block;
-    -webkit-animation: slow-open 300ms ease-out;
-    animation: slow-open 300ms ease-out;
+    max-height: 10em;
 }
 
 .st0{
@@ -319,21 +319,6 @@ body {
     50% {transform: translateX(.60em);}
     
     100% {transform: translateX(0em);}   
-}
-
-
-@-webkit-keyframes slow-open {
-    
-    0% { max-height: 0em;}
-    
-    100% { max-height: 10em;} 
-}
-
-@keyframes slow-open {
-    
-    0% {max-height: 0em;}
-    
-    100% {max-height: 10em;}
 }
 
 @-webkit-keyframes sun-rotate {
