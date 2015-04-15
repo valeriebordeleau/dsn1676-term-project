@@ -88,6 +88,7 @@ body {
     padding: 0;
     overflow: hidden;
     max-height:0;
+    -webkit- transition: all 500ms ease-out; 
     transition: all 500ms ease-out; 
 }
 
@@ -134,14 +135,20 @@ body {
 
 .backto {
     text-decoration: none;
-    color:#5983B5;
-    font-weight: bolder;
+    color: white;
+    font-weight: bold;
+    background-color: #FBB040;
+    border: solid 5px #FBB040;
+    border-radius: 10px;
 }
 
 .backto:hover {
     text-decoration: none;
-    color: #476991;
-    font-weight: bolder;
+    color: white;
+    font-weight: bold;
+    background-color: #EF9218;
+    border: solid 5px #EF9218;
+    border-radius: 10px
 }
 
 .text {
@@ -193,6 +200,7 @@ body {
 .to-do {
     overflow: hidden;
     max-height:0;
+    -webkit-transition: all 500ms ease-out; 
     transition: all 500ms ease-out; 
 }
 
@@ -220,6 +228,7 @@ body {
 .to-see {
     overflow: hidden;
     max-height:0;
+    -webkits-transition: all 500ms ease-out; 
     transition: all 500ms ease-out; 
 }
 
@@ -247,6 +256,7 @@ body {
 .to-go {
     overflow: hidden;
     max-height:0;
+     -webkit-transition: all 500ms ease-out; 
     transition: all 500ms ease-out; 
 }
 
