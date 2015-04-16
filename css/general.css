@@ -151,6 +151,8 @@ body {
     background-color: #EF9218;
     border: solid 5px #EF9218;
     border-radius: 10px
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;    
 }
 
 .text {
@@ -197,6 +199,8 @@ body {
   border: solid 5px #EF9218;
   border-radius: 10px;
   color: white;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
 }
 
 .to-do {
@@ -225,6 +229,8 @@ body {
   border: solid 5px #EF9218;
   border-radius: 10px;
   color: white;
+   -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
 }
 
 .to-see {
@@ -245,7 +251,9 @@ body {
    font-weight: bold;
    background-color: #FBB040;
    border: solid 5px #FBB040;
-   border-radius: 10px
+   border-radius: 10px;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
 }
 
 .things-to-go:hover {
@@ -253,6 +261,8 @@ body {
   border: solid 5px #EF9218;
   border-radius: 10px;
   color: white;
+   -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
 }
 
 .to-go {
