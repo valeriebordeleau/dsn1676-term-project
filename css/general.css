@@ -121,6 +121,13 @@ body {
     left: calc(92% - 23px);
 }
 
+.toggle:hover {
+    width: 50px;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+
 .button {
     width: 90px;
     position: absolute;
