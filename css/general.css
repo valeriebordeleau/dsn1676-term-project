@@ -103,10 +103,7 @@ body {
     display: block;
     padding: .5em;
     text-decoration: none;
-    color: black;
-}
-
-.button2 {
+    color: black; 
 }
 
 .nav a, 
@@ -133,6 +130,8 @@ body {
 
 .button:hover {
     width: 95px;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
 }
 
 .backto {
