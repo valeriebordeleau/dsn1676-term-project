@@ -285,6 +285,10 @@ a:focus {
     
 }
 
+.bottom-nav {
+    list-style: none;
+}
+
 .secondary-nav {
     list-style: none;
     background-color: #DEECF9;
@@ -292,6 +296,12 @@ a:focus {
     text-decoration: none;
     padding-left: .75rem;
     padding-right: .75rem;
+}
+
+.secondary-nav:hover {
+   background-color: #7A9BCC;
+    top: 60px;
+    color: white;
 }
 
 .skip-links {
