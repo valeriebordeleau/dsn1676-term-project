@@ -11,8 +11,14 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>  
+    
+    <ul class="skip-links">
+        <li><a href="#nav">Skip To Navigation</a></li>
+        <li><a href="#intro">Skip To Introduction</a></li>
+        <li><a href="#main">Skip To Main Content</a></li>
+    </ul>       
  
-    <nav>
+    <nav role="navigation">
         <ul class="nav-items text-center push-0">
             <li><a href="#suggestions" class="nav-li">Suggestions</a></li>
             <li><a href="#featured-adventure" class="nav-li">Featured Adventure</a></li>
@@ -20,22 +26,23 @@
         </ul>
         </nav>
     
-<div class="background" id="top">
+<div class="background" id="top" role="banner">
     <div class="pulse"> </div>
     <img src="artwork/cloud.svg" alt="Puffy cloud" class="cloud2">
-    <img src="artwork/cloud2.svg" alt="Grey puffy cloud" class="cloud">
-    <img src="artwork/sun.svg" alt="Spikey sun" class="sun">
+    <img src="artwork/cloud2.svg" alt="Grey Puffy Cloud" class="cloud">
+    <img src="artwork/sun.svg" alt="The Sun" class="sun">
     <img src="artwork/toggle.svg" class="toggle" alt="toggle">
 <div class="text grid">
     <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
-    <h1 class="text-center gutter yotta push-0 title">Sunny Days</h1>
+    <h1 class="text-center gutter yotta push-0 title" id="intro">Sunny Days</h1>
     <p class="gutter text-center">An inspirational list of fun ideas for days when the weather is warm and agreeable. Get great ideas for fun adventures.</p>
     </div>
 
 </div>
     <div class="button2"><a href="#bottom"><img src="artwork/button.svg" alt="down button" class="button island"></a></div>
 </div>
-    
+ 
+<main role="main" id="main">
 <div class="clickables">
     <h2 class="text-center pad-top-double push-0" id="suggestions">Need a Suggestion for Your Sunny Day?</h2>    
 
@@ -156,10 +163,22 @@
     </div>
 </div>
 
+</main>
 </body>
     
- <footer>
+    
+ <footer role="footer" class="clickables pad-bottom">
      <div class="button2 island clickables"><a href="#top" class="gutter backto kilo">Back to Top</a></div>
+     
+     <nav id="nav">
+        <ul class="secondary-nav push-0">
+            <li><a href="#suggestions" class="secondary-nav">Suggestions</a></li>
+            <li><a href="#featured-adventure" class="secondary-nav">Featured Adventure</a></li>
+            <li><a href="#inspiration" class="secondary-nav">Inspiration</a></li>
+        </ul>
+        </nav>
+     
+     <p class="micro island" role="contentinfo">© Sunny Days 2015</p>
 </footer>
 
 <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>

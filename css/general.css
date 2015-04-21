@@ -190,6 +190,8 @@ body {
     color: #476991;
 }
 
+
+
 .things-to-do {
    font-family: 'Raleway', sans-serif;
    font-size: 1rem;
@@ -276,6 +278,36 @@ body {
     max-height:0;
      -webkit-transition: all 500ms ease-out; 
     transition: all 500ms ease-out; 
+}
+
+a:focus {
+    outline:3px solid #476991;
+    
+}
+
+.secondary-nav {
+    list-style: none;
+    background-color: #DEECF9;
+    color: #476991; 
+    text-decoration: none;
+    padding-left: .75rem;
+    padding-right: .75rem;
+}
+
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a {
+	position: absolute;
+	top: -3em;
+}
+
+.skip-links a:focus {
+	position: absolute;
+	top: 0em;
 }
 
 .js-to-go-appear {
