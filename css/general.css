@@ -146,8 +146,9 @@ body {
     color: white;
     font-weight: bold;
     background-color: #FBB040;
-    border: solid 5px #FBB040;
-    border-radius: 10px;
+    padding: .5em;
+    border: 0;
+    border-radius: 8px;
 }
 
 .backto:hover {
@@ -155,8 +156,9 @@ body {
     color: white;
     font-weight: bold;
     background-color: #EF9218;
-    border: solid 5px #EF9218;
-    border-radius: 10px
+    padding: .5em;
+    border: 0;
+    border-radius: 8px;
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;    
 }
@@ -198,14 +200,16 @@ body {
    color: white;
    font-weight: bold;
    background-color: #FBB040;
-   border: solid 5px #FBB040;
-   border-radius: 10px;
+   padding: .5em;
+   border: 0;
+   border-radius: 8px;
 }
 
 .things-to-do:hover {
   background-color: #EF9218;
-  border: solid 5px #EF9218;
-  border-radius: 10px;
+  padding: .5em;
+   border: 0;
+   border-radius: 8px;
   color: white;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
@@ -228,14 +232,16 @@ body {
    color: white;
    font-weight: bold;
    background-color: #FBB040;
-   border: solid 5px #FBB040;
-   border-radius: 10px   
+   padding: .5em;
+   border: 0;
+   border-radius: 8px; 
 }
 
 .things-to-see:hover {
   background-color: #EF9218;
-  border: solid 5px #EF9218;
-  border-radius: 10px;
+  padding: .5em;
+   border: 0;
+   border-radius: 8px;
   color: white;
    -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
@@ -258,16 +264,19 @@ body {
    color: white;
    font-weight: bold;
    background-color: #FBB040;
-   border: solid 5px #FBB040;
-   border-radius: 10px;
+   padding: .5em;
+   border: 0;
+   border-radius: 8px;
+    
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
 }
 
 .things-to-go:hover {
   background-color: #EF9218;
-  border: solid 5px #EF9218;
-  border-radius: 10px;
+  padding: .5em;
+   border: 0;
+   border-radius: 8px;
   color: white;
    -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
@@ -313,6 +322,7 @@ a:focus {
 .skip-links a {
 	position: absolute;
 	top: -3em;
+    z-index: 100;
 }
 
 .skip-links a:focus {
